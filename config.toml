@@ -3,9 +3,11 @@ baseURL = "https://delacruzchaico.com"
 languageCode = "en-us"
 title = "Gerald de la Cruz"
 theme = "careercanvas"
+
 defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = false
 enableEmoji = true
+
 
 [languages]
   [languages.en]
@@ -31,15 +33,15 @@ enableEmoji = true
     weight = 1
     [languages.es.params]
       tagline = "Desarrollador de sistemas web CRM/EMR. Administración de sistemas Linux y base de datos."
-      hero_description = "Desarrollador de sistemas web Full-stack. Programando en todos lados desde el 2009. Estoy comprometido con la mejora continua, el pensamiento sistémico y me encanta participar en proyectos donde se use la tecnología para mejorar las estrategias de marketing."
+      hero_description = "Desarrollador de sistemas web Fullstack. Programando en todas partes desde el 2009. Estoy comprometido con la mejora continua, el pensamiento sistémico y me encanta participar en proyectos donde se use la tecnología para mejorar las estrategias de marketing digital."
       hero_location = "Lima, Perú"
       resume_url = "/files/gerald_delacruz.pdf"
       collab_tags = [
-        "Seguridad y desarrollo a la medida",
+        "Desarrollo de software a la medida",
         "Análisis de sistemas CRM",
-        "full stack (PHP / Python / Node.js / MySql / Postgres)",
+        "Fullstack (PHP / Python / Node.js / Tailwind / MySql / Postgres)",
         "Arquitectura de software y requisitos",
-        "Adopción de IA empresarial"
+        "Integración de IA empresarial"
       ]
   [languages.fr]
     contentDir = "content/fr"
@@ -83,11 +85,9 @@ calendly_url = "https://calendly.com/gerald-delacruz-chaico/30min"
 calendly_height = "700px"
 
 copyright = "Gerald de la Cruz"
-
-
 resume_url_en = "/files/Gerald_de la Cruz_CV_ENG.pdf"
 resume_url_fr = "/files/Gerald_de la Cruz_CV_FRE.pdf"
-resume_label = "View CV"
+resume_label = "Descargar CV"
 
 # Form and Pexels: set in config or config.local.toml. CI: HUGO_PARAMS_FORMSPREEENDPOINT, HUGO_PARAMS_PEXELSAPIKEY (no underscores)
 formspreeendpoint = "https://formspree.io/f/xpqkeezw"
@@ -207,3 +207,4 @@ sectionPagesMenu = 'main'
     # "nebula nasa pictures",
     # "artificial intelligence",
   ]
+

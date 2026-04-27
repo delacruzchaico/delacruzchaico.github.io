@@ -305,10 +305,20 @@
 
     // Dark mode toggle
     function toggleDarkMode() {
-      const isDark = document.documentElement.classList.toggle('dark');
+        const isDark = document.documentElement.classList.toggle('dark');
       localStorage.setItem('darkMode', isDark);
     }
 
+// Forzar light mode al inicio
+(function() {
+  const savedMode = localStorage.getItem('darkMode');
+  // Si no hay preferencia guardada, o está en dark, forzar light
+  if (savedMode === null || savedMode === 'true') {
+    document.documentElement.classList.remove('dark');
+    localStorage.setItem('darkMode', false);
+  }
+})();
+   
     document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
     document.getElementById('darkModeToggleMobile').addEventListener('click', toggleDarkMode);
 

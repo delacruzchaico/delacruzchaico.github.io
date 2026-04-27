@@ -5,5 +5,5 @@ type = "list"
 weight = 60
 +++
 
-Bienvenido al blog en español. Pronto publicaré las traducciones de los artículos.
+Bienvenido a mi blog personal, pronto publicaré proyectos más grandes.
 
