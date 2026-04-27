@@ -90,7 +90,7 @@ resume_url_fr = "/files/Gerald_de la Cruz_CV_FRE.pdf"
 resume_label = "View CV"
 
 # Form and Pexels: set in config or config.local.toml. CI: HUGO_PARAMS_FORMSPREEENDPOINT, HUGO_PARAMS_PEXELSAPIKEY (no underscores)
-formspreeendpoint = ""
+formspreeendpoint = "https://formspree.io/f/xpqkeezw"
 pexelsapikey = "PHnzbDH0LMpqmT3YBLIAfljSkb7rsZ2NehKsj0ivIeKCCRleSMcptoke"
 
 [[params.social]]
