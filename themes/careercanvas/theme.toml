@@ -9,7 +9,7 @@ features = ["responsive", "blog", "portfolio", "dark mode", "resume", "career sh
 min_version = "0.110.0"
 
 [author]
-  name = "Felipe Cordero"
+  name = "felipe Cordero"
   homepage = "https://felipecordero.com" 
 
 # Theme Configuration
