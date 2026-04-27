@@ -2,22 +2,22 @@
 title: "Habilidades"
 type: "homepage"
 intro: >-
-  Desarrollo de software: diseño de soluciones integrales y arquitectura empresarial, entrega full stack y colaboración clara con producto, seguridad y clientes.
+  Desarrollo de software y diseño de soluciones integrales integradas a tu arquitectura empresarial, entrega fullstack y colaboración clara entre producto, plataforma y clientes.
 
 domains:
-  - icon: "brain"
-    title: "Chatbos IA"
-    description: "Agentes LLM, diseño de prompts y políticas, guardrails, seguridad en IA, diseño de producto orientado al cumplimiento y definición de alcance con PMs y clientes."
-    devicon_class: "devicon-tensorflow-original colored"
-
   - icon: "code"
     title: "Desarrollo full stack en WEB"
-    description: "Python, PHP, Laravel, PostgreSQL y MySQL y despliegue moderno integrado para entregar funcionalidades fiables."
+    description: "Python, PHP, Laravel, PostgreSQL y MySQL y despliegue moderno e integrado para entregar funcionalidades fiables."
     devicon_class: "devicon-python-plain colored"
-
-  - icon: "lock"
+    
+  - icon: "brain"
+    title: "Inteligencia de negocios"
+    description: "Ayudo a las organizaciones a eliminar la incertidumbre mediante la implementación de herramientas de Business Intelligence, convirtiendo grandes volúmenes de datos en activos estratégicos de alto valor."
+    devicon_class: "devicon-tensorflow-original colored"
+    
+  - icon: "bullhorn"
     title: "Marketing de servicios y design thinking"
-    description: "Descubrimiento de insights, encuadre de riesgos, customer journey map, service blueprint y cumplimiento—priorizados en roadmaps y funcionalidades entregadas."
+    description: "Análisis de insights, customer journey map, service blueprint y campañas de mailing masivo con seguimiento de recepción."
     devicon_class: "devicon-react-original colored"
 
   - icon: "tools"
@@ -31,12 +31,12 @@ domains:
     devicon_class: "devicon-github-original colored"
 
   - icon: "globe"
-    title: "Idiomas e internacional"
-    description: "Español nativo; inglés para contextos de producto y clientes internacionales."
+    title: "Idiomas"
+    description: "Español nativo; inglés americano competencia profesional completa."
     devicon_class: "devicon-html5-plain colored"
 
   - icon: "hands-helping"
     title: "Comunidad y aprendizaje"
-    description: "Me encanta el open source y publico mis proyectos en github y trabajo en mi formación continua"
+    description: "Me encantan investigar sobre los proyectos open source, creo que es la mejor forma de aprender algo es aplicandolo por eso trabajo activamente en mi formación continua"
     devicon_class: "devicon-javascript-plain colored"
 ---

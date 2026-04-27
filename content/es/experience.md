@@ -2,7 +2,7 @@
 title: "Experiencia"
 type: "homepage"
 intro: >-
-  De la programación de sistemas al pensamiento de diseño: plataformas y herramientas que conectan profundidad técnica con resultados de producto y negocio.
+  Desde la programación de sistemas web hasta la administración de centro de datos y estrategias de marketing digital en el sector salud.
 
 resume_downloads:
   - lang: en

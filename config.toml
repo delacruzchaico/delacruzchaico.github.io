@@ -35,7 +35,7 @@ enableEmoji = true
       tagline = "Desarrollador de sistemas web CRM/EMR. Administración de sistemas Linux y base de datos."
       hero_description = "Desarrollador de sistemas web Fullstack. Programando en todas partes desde el 2009. Estoy comprometido con la mejora continua, el pensamiento sistémico y me encanta participar en proyectos donde se use la tecnología para mejorar las estrategias de marketing digital."
       hero_location = "Lima, Perú"
-      resume_url = "/files/gerald_delacruz.pdf"
+      resume_url = "/files/gerald_delacruz_oficial.pdf"
       collab_tags = [
         "Desarrollo de software a la medida",
         "Análisis de sistemas CRM",
@@ -72,7 +72,7 @@ email = "gerald@delacruzchaico.com"
 profile_image = "/images/delacruzchaico_4k.png"
 author = "Gerald de la Cruz"
 
-og_image = "images/delacruzchaico_4k.png"
+og_image = "/images/delacruzchaico_4k.png"
 
 description = "Desarrollador de sistemas web Full-stack. Programando en todos lados desde el 2009. Estoy comprometido con la mejora continua, el pensamiento sistémico y me encanta participar en proyectos donde se use la tecnología para mejorar las estrategias de marketing."
 

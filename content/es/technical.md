@@ -2,7 +2,7 @@
 title: "Tech Stack"
 type: "homepage"
 intro: >-
-  Kit de implementación que apoya la ingeniería de producto: lenguajes, frameworks, datos, IA/ML y software de ingeniería para entregar funcionalidades de extremo a extremo.
+  Esta es mi colección de herramientas que me ayudan a entregar resultados de alta calidad.
 
 technical_groups:
   - title: "Lenguajes de Programación"
