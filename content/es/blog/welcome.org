@@ -1,0 +1,88 @@
+#+title: Bienvenido a mi Blog: Tecnología, Código y Gestión Digital
+#+date: 2026-04-26
+#+description: Un espacio donde comparto experiencias sobre desarrollo de software, administración de sistemas, automatización y herramientas digitales para pymes y emprendedores.
+#+featured_image: /images/welcome.png
+#+tags[]: bienvenida tecnologia desarrollo software
+#+categories[]: personal
+#+draft: false
+
+* Introducción @@html:&#128640;@@
+
+Hola. Me llamo Gerald de la Cruz y este es mi rincón en internet.
+
+Llevo programando desde 2009. He pasado por PHP, Python, Node.js, bases de datos relacionales, servidores Linux, contenedores, y más recientemente, inteligencia artificial aplicada a productos empresariales.
+
+Este blog nace por una razón simple: **compartir lo que aprendo** para que a otros les cueste menos de lo que me costó a mí.
+
+* ¿De qué voy a escribir? @@html:&#128218;@@
+
+La idea no es tener un blog más de "cómo programar X en Y minutos". Hay mucho de eso ya. Acá voy a enfocarme en cosas que realmente uso en el día a día:
+
+**1. Tecnología aplicada a negocios**
+
+OpenEMR, ERPNext, gestión clínica, automatización empresarial. Soluciones concretas para problemas reales de pymes y clínicas.
+
+**2. Desarrollo full-stack**
+
+Arquitectura de software, buenas prácticas, despliegues, bases de datos. Lo que funciona y lo que duele.
+
+**3. Herramientas digitales para emprendedores**
+
+CRMs, plataformas de email marketing, embudos, cursos online, automatizaciones. Reviews honestas de lo que he probado en proyectos reales.
+
+**4. Administración de sistemas**
+
+Linux, Docker, backups, seguridad, hardening de servidores. Porque el código no sirve si el servidor está caído.
+
+**5. IA aplicada a productos**
+
+Guardrails, compliance, agentes LLM seguros. Cómo llevar la IA de la demo a producción sin romper todo.
+
+* ¿Para quién escribo? @@html:&#129488;@@
+
+Si alguna de estas frases te suena, estás en el lugar correcto:
+
+| Tu situación | Este blog te sirve |
+|---|---|
+| Sos desarrollador y querés entender mejor la parte de negocio | @@html:&#9989;@@ Acá conectamos código con resultados |
+| Tenés una pyme o clínica y querés digitalizarte | @@html:&#9989;@@ Comparto herramientas que realmente funcionan |
+| Estás empezando con Linux, Docker o automatización | @@html:&#9989;@@ Explicaciones prácticas, no teoría sin contexto |
+| Querés reviews honestas de SaaS sin marketing vacío | @@html:&#9989;@@ Lo he probado, te cuento lo bueno y lo malo |
+
+* Mi enfoque @@html:&#128161;@@
+
+No me interesa el clickbait ni las promesas de "hacerse rico en 30 días".
+
+Acá cada artículo parte de algo que **usé, sufrí o resolví** en proyectos con clientes reales. Si recomiendo una herramienta, te digo por qué y para qué contexto sirve. Si una solución no me convenció, también lo voy a decir.
+
+El mundo del software está lleno de hype. Mi objetivo es bajar a tierra las cosas y mostrar qué funciona, cuándo y para quién.
+
+* Cómo está organizado el blog @@html:&#128295;@@
+
+El sitio tiene secciones principales:
+
+- @@html:&#128196;@@ **Posts**: artículos técnicos y reflexiones.
+- @@html:&#128188;@@ **Proyectos**: cosas que he construido o en las que participé.
+- @@html:&#128279;@@ **Contacto**: por si querés charlar sobre algo.
+
+Podés navegar por tags si buscás temas específicos como "openemr", "laravel", "docker" o "automatización".
+
+* Un poco sobre mí @@html:&#128187;@@
+
+Si llegaste hasta acá, quizás te interesa saber más de mí.
+
+Soy desarrollador full-stack, actualmente trabajando en inteligencia artificial aplicada a productos empresariales en Montréal, Canadá. Antes de eso, pasé por proyectos de CRM, sistemas EMR, administración de servidores y consultoría tecnológica para pymes.
+
+Me gusta el pensamiento sistémico, la mejora continua y los proyectos donde la tecnología realmente mejora algo tangible. No me caso con lenguajes ni frameworks. Uso lo que resuelve el problema sin complicar de más.
+
+* Empecemos @@html:&#128640;@@
+
+Este blog recién empieza, pero la idea es que crezca con el tiempo.
+
+Si te interesa alguno de los temas, podés suscribirte (cuando active el newsletter), seguirme en mis redes o simplemente pasar de vez en cuando a ver qué hay nuevo.
+
+Mi puerta está abierta para preguntas, críticas constructivas o sugerencias de temas que te gustaría que escriba.
+
+**Gracias por estar acá.** Espero que encuentres contenido útil y que te ayude a resolver problemas reales.
+
+Nos leemos en los comentarios. @@html:&#128172;@@

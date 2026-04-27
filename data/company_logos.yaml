@@ -1,0 +1,13 @@
+# Keys must match urlize(company) from experience front matter, or use company_key on a position.
+# Each `src` is a URL path; use .svg, .png, or .webp under static/images/companies/.
+# If there is no entry here, all images in static/images/companies/<key>/ are shown (e.g. various-engineering-firms/).
+oncogyn:
+  src: /images/companies/oncogyn.png
+sisa:
+  src: /images/companies/sisa.png
+soluciones-tec:
+  src: /images/companies/soluciones-tec-peru.png
+tensacon:
+  src: /images/companies/tensacon.png
+sirve-engineering:
+  src: /images/companies/sirve-engineering.png

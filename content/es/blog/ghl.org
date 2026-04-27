@@ -1,0 +1,169 @@
+#+title: GoHighLevel: La Plataforma Todo-en-Uno para Agencias de Marketing
+#+date: 2026-04-26
+#+description: CRM, automatización de marketing, embudos de ventas, SMS y llamadas en una sola plataforma. Ideal para agencias que gestionan múltiples clientes.
+#+featured_image: /images/gohighlevel.webp
+#+tags[]: gohighlevel crm automatizacion marketing agencias
+#+categories[]: herramientas
+#+draft: false
+
+* Introducción @@html:&#128640;@@
+
+En el mundo del marketing digital, la fragmentación de herramientas es un problema real. Muchas agencias usan un CRM, un
+constructor de embudos, un servicio de email marketing, un sistema de SMS y un calendario de citas... todo por
+separado.
+
+*GoHighLevel* (GHL) nació para resolver exactamente eso: es un sistema operativo de ingresos todo-en-uno que combina
+CRM, embudos de ventas, automatización multicanal (email, SMS, llamadas), calendario, facturación y gestión de clientes
+en una sola plataforma.
+
+En este post, te cuento qué es GoHighLevel, para quién es y cómo se compara con otras alternativas.
+
+* ¿Qué es GoHighLevel? @@html:&#129488;@@
+
+GoHighLevel es una plataforma fundada en 2016 en Estados Unidos, diseñada específicamente para **agencias de marketing**
+y consultores que gestionan múltiples cuentas de clientes.
+
+A diferencia de un CRM tradicional, GHL está construido alrededor de un modelo de "sub-cuentas", donde una agencia puede:
+
+- Crear cuentas separadas para cada cliente (con su propia marca)
+- Aplicar plantillas y "snapshots" para desplegar configuraciones estandarizadas
+- Controlar permisos y roles de usuario
+- Generar reportes consolidados de todos los clientes
+
+Esto lo convierte en una herramienta ideal para **white-label**: podés rebrandear la plataforma y venderla como si fuera tu propio software.
+
+* Características Principales @@html:&#128295;@@
+
+**1. CRM con Pipeline Visual**
+
+El CRM de GoHighLevel permite gestionar leads, oportunidades y clientes con un pipeline visual estilo Kanban. Podés:
+
+- Organizar leads por etapas del proceso de venta
+- Asignar tareas y seguimientos a los miembros del equipo
+- Llevar un historial completo de interacciones
+
+**2. Automatización Multicanal**
+
+El motor de automatización de GHL es uno de sus puntos fuertes. Podés crear flujos de trabajo que combinen:
+
+- @@html:&#128231;@@ Email marketing (con tu propio proveedor SMTP como Mailgun o SendGrid)
+- @@html:&#128242;@@ SMS y MMS (vía Twilio)
+- @@html:&#128222;@@ Llamadas entrantes y salientes con buzón de voz
+- @@html:&#128172;@@ Mensajería por Facebook Messenger
+- @@html:&#128197;@@ Recordatorios automáticos de citas
+
+El costo de envío de emails es aproximado @@html:&#128181;@@ $0.01 por correo vía Mailgun (adicional a la suscripción).
+
+**3. Constructor de Embudos y Landing Pages**
+
+GHL incluye un constructor de páginas drag-and-drop para crear:
+
+- Landing pages de captura
+- Embudos de ventas completos
+- Páginas de checkout y upsells
+- Sitios web completos con menús personalizables
+
+**4. Calendario y Gestión de Citas**
+
+El sistema de agendamiento integrado permite:
+
+- Programar citas con enlaces personalizados
+- Enviar recordatorios automáticos (SMS/email)
+- Manejar confirmaciones, cancelaciones y reprogramaciones
+- Seguimiento post-cita para evitar "no-shows"
+
+**5. Reputación y Reseñas**
+
+Para negocios locales, GHL ofrece herramientas de gestión de reputación:
+
+- Solicitar reseñas automáticamente después del servicio
+- Responder reseñas desde la plataforma
+- Dashboard de reportes de reputación
+
+**6. Facturación y Pagos**
+
+Podés cobrar a tus clientes directamente desde la plataforma, con:
+
+- Pasarelas de pago integradas (Stripe, PayPal)
+- Páginas de checkout personalizadas
+- Membresías y suscripciones recurrentes
+
+* Comparativa: GoHighLevel vs Competidores @@html:&#129309;@@
+
+La siguiente tabla compara GHL con otras plataformas de automatización y CRM
+
+| Característica            | GoHighLevel               | Activepieces               | n8n                               | Systeme.io          |
+|---------------------------+---------------------------+----------------------------+-----------------------------------+---------------------|
+| Open Source               | @@html:&#10060;@@         | @@html:&#9989;@@ MIT       | @@html:&#9989;@@ Source-available | @@html:&#10060;@@   |
+| Self-hosting              | @@html:&#10060;@@         | @@html:&#9989;@@           | @@html:&#9989;@@                  | @@html:&#10060;@@   |
+| Precio inicial            | $97/mes                   | $0-$25/mes                 | €24/mes                           | $0-$27/mes          |
+| Enfoque principal         | Agencias multicuenta      | Automatización open-source | Workflows técnicos                | Creadores digitales |
+| Integraciones nativas     | ~50                       | ~450                       | ~1,145                            | Limitadas           |
+| SMS y llamadas            | @@html:&#9989;@@ (Twilio) | @@html:&#10060;@@          | @@html:&#10060;@@                 | @@html:&#10060;@@   |
+| Sub-cuentas multi-cliente | @@html:&#9989;@@          | @@html:&#10060;@@          | @@html:&#10060;@@                 | @@html:&#10060;@@   |
+
+
+* ¿Para Quién es GoHighLevel? @@html:&#128161;@@
+
+**Según los expertos, GHL es la mejor opción si sos:**
+
+| Tu perfil                                | ¿GHL es para vos?                                         |
+|------------------------------------------+-----------------------------------------------------------|
+| Agencia de marketing con varios clientes | @@html:&#9989;@@ Excelente opción                         |
+| Consultor SaaS que quiere white-label    | @@html:&#9989;@@ Ideal (modelo de reventa)                |
+| Negocio local con gestión de citas       | @@html:&#9989;@@ Bueno (reemplaza múltiples herramientas) |
+| Creador / solopreneur digital            | @@html:&#9888;@@ Puede ser excesivo (mejor Systeme.io)    |
+| Startup con presupuesto ajustado         | @@html:&#9888;@@ Considerar Activepieces o n8n            |
+
+* Limitaciones y Consideraciones @@html:&#128161;@@
+
+Como toda herramienta, GHL no es perfecta. Algunos puntos a tener en cuenta:
+
+**1. Curva de aprendizaje pronunciada**
+
+La plataforma es compleja. Muchos usuarios reportan que el setup inicial puede tomar semanas de capacitación, y aproximadamente el **73% de los usuarios abandonan la plataforma dentro de los primeros 60 días** por la complejidad.
+
+**2. Costos adicionales**
+
+La suscripción base ($$$ USD 97/mes) no incluye:
+
+- Costos de SMS/llamadas vía Twilio (aprox. $0.0075 por SMS)
+- Costos de email vía Mailgun/SendGrid (aprox. $0.0005-$0.01 por email)
+- Números de teléfono adicionales
+
+**3. Límites de API**
+
+La API tiene un límite de **100 requests cada 10 segundos**, lo que puede afectar a usuarios de alto volumen o integraciones complejas.
+
+**4. Deliverability de email**
+
+Algunos usuarios reportan una caída en las tasas de apertura de email después de migrar a GHL, por lo que es fundamental configurar correctamente SPF, DKIM y DMARC
+
+* Alternativas Open Source a Considerar @@html:&#128260;@@
+
+Si el costo o la falta de open source es un problema, considerá estas alternativas:
+
+| Alternativa      | Tipo                  | Precio         | Ideal para                     |
+|------------------+-----------------------+----------------+--------------------------------|
+| **Activepieces** | Open Source MIT       | $0 (self-host) | Startups, presupuesto ajustado |
+| **n8n**          | Source-available      | $0 (self-host) | Equipos técnicos, workflows AI |
+| **Mautic**       | Open Source           | $0             | Marketing automation pura      |
+| **Krayin CRM**   | Open Source (Laravel) | $0             | CRM frontal simple             |
+
+* Conclusión @@html:&#128640;@@
+
+GoHighLevel es una plataforma poderosa, pero no es para todos.
+
+**Elegí GHL si:**
+- Sos una agencia que gestiona múltiples cuentas de clientes
+- Necesitás white-label para revender software
+- Tus clientes requieren comunicación omnicanal (email + SMS + llamadas)
+
+**Evitá GHL si:**
+- Recién empezás y tenés un solo producto digital (mejor Systeme.io)
+- Preferís software open source y self-hosted (mejor Activepieces o n8n)
+- Solo necesitás email marketing básico (mejor Mautic)
+
+La decisión final depende de tu modelo de negocio, presupuesto y necesidades técnicas.
+
+¿Ya usaste GoHighLevel o alguna de sus alternativas? Contame tu experiencia. @@html:&#128172;@@

@@ -1,0 +1,2497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.160.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <script>
+        
+        if (localStorage.getItem('darkMode') !== 'false') {
+            document.documentElement.classList.add('dark');
+        }
+    </script>
+    
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+<title>
+  
+    Gerald de la Cruz | Desarrollador de sistemas web CRM/EMR. Administración de sistemas Linux y base de datos.
+  
+</title>
+
+
+<meta name="description" content="Desarrollador de sistemas web Full-stack. Programando en todos lados desde el 2009. Estoy comprometido con la mejora continua, el pensamiento sistémico y me encanta participar en proyectos donde se use la tecnología para mejorar las estrategias de marketing." />
+<meta name="author" content="Gerald de la Cruz" />
+<link rel="canonical" href="http://localhost:1313/" />
+
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Gerald de la Cruz | Desarrollador de sistemas web CRM/EMR. Administración de sistemas Linux y base de datos." />
+<meta property="og:description" content="Desarrollador de sistemas web Full-stack. Programando en todos lados desde el 2009. Estoy comprometido con la mejora continua, el pensamiento sistémico y me encanta participar en proyectos donde se use la tecnología para mejorar las estrategias de marketing." />
+<meta property="og:url" content="http://localhost:1313/" />
+<meta property="og:image" content="http://localhost:1313/images/delacruzchaico-og.png">
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:site_name" content="Gerald de la Cruz" />
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Gerald de la Cruz | Desarrollador de sistemas web CRM/EMR. Administración de sistemas Linux y base de datos." />
+<meta name="twitter:description" content="Desarrollador de sistemas web Full-stack. Programando en todos lados desde el 2009. Estoy comprometido con la mejora continua, el pensamiento sistémico y me encanta participar en proyectos donde se use la tecnología para mejorar las estrategias de marketing." />
+<meta name="twitter:image" content="http://localhost:1313/images/delacruzchaico-og.png" />
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+
+
+    
+    
+    <style>
+ 
+:root {
+   
+  
+  
+  --color-primary: #474A51;
+  --color-second: #E52521;
+  --color-third: #3CB043;
+  
+  
+   
+  --color-primary-light: color-mix(in srgb, var(--color-primary) 80%, white);
+  --color-primary-dark: color-mix(in srgb, var(--color-primary) 80%, black);
+  --color-primary-lighter: color-mix(in srgb, var(--color-primary) 20%, white);
+  
+  --color-second-light: color-mix(in srgb, var(--color-second) 80%, white);
+  --color-second-dark: color-mix(in srgb, var(--color-second) 80%, black);
+  --color-second-lighter: color-mix(in srgb, var(--color-second) 20%, white);
+  
+  --color-third-light: color-mix(in srgb, var(--color-third) 80%, white);
+  --color-third-dark: color-mix(in srgb, var(--color-third) 80%, black);
+  --color-third-lighter: color-mix(in srgb, var(--color-third) 20%, white);
+  
+   
+  --color-gray-50: color-mix(in srgb, var(--color-primary) 5%, white);
+  --color-gray-100: color-mix(in srgb, var(--color-primary) 10%, white);
+  --color-gray-300: color-mix(in srgb, var(--color-primary) 20%, white);
+  --color-gray-400: color-mix(in srgb, var(--color-primary) 30%, white);
+  --color-gray-500: color-mix(in srgb, var(--color-primary) 40%, white);
+  --color-gray-600: color-mix(in srgb, var(--color-primary) 50%, black);
+  --color-gray-700: color-mix(in srgb, var(--color-primary) 60%, black);
+  --color-gray-800: color-mix(in srgb, var(--color-primary) 80%, black);
+  --color-gray-900: color-mix(in srgb, var(--color-primary) 90%, black);
+  
+   
+  --color-white: #ffffff;
+  --color-black: #000000;
+  
+   
+  --color-shadow-light: rgba(0, 0, 0, 0.1);
+  --color-shadow-lighter: rgba(0, 0, 0, 0.05);
+  --color-shadow-dark: rgba(0, 0, 0, 0.3);
+  
+   
+  --color-text-muted: var(--color-gray-500);
+  --color-border-secondary: var(--color-gray-300);
+  --color-success: var(--color-second);
+  
+   
+  --color-bg: var(--color-white);
+  --color-bg-secondary: var(--color-gray-100);
+  --color-text-primary: var(--color-gray-900);
+  --color-text-secondary: var(--color-gray-700);
+  --color-border: var(--color-gray-300);
+}
+
+ 
+.dark {
+  --color-bg: color-mix(in srgb, var(--color-primary) 50%, black);
+  --color-bg-secondary: color-mix(in srgb, var(--color-primary) 30%, black);
+  --color-bg-tertiary: color-mix(in srgb, var(--color-primary) 40%, black);
+  --color-text-primary: var(--color-gray-50);
+  --color-text-secondary: var(--color-gray-300);
+  --color-border: var(--color-gray-700);
+  --color-text-muted: var(--color-gray-400);
+  --color-border-secondary: var(--color-gray-600);
+}
+</style>
+
+    
+    
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />    
+    <link rel="stylesheet" href="/css/main.css?v=1777261895" data-version="1777261895">
+    <style>
+         
+        body {
+            visibility: hidden;
+        }
+        .dark body {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body class="bg-bg dark:bg-bg text-text-primary dark:text-text-primary flex flex-col min-h-screen transition-colors duration-200">
+
+    <nav class="fixed w-full bg-bg dark:bg-bg shadow-md z-50" role="banner">
+  <div class="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
+    <div class="flex justify-between h-16">
+      <div class="flex items-center">
+        <a href="/" class="text-3xl font-bold text-text-primary dark:text-text-primary font-heading">Gerald de la Cruz</a>
+      </div>
+      <div class="hidden lg:flex items-center space-x-6">
+        
+          
+                      
+            
+            <a href="/#about" class="nav-link text-text-primary dark:text-text-primary">Sobre mí</a>
+          
+          
+        
+          
+                      
+            
+            <a href="/#skills" class="nav-link text-text-primary dark:text-text-primary">Habilidades</a>
+          
+          
+        
+          
+                      
+            
+            <a href="/#experience" class="nav-link text-text-primary dark:text-text-primary">Experiencia</a>
+          
+          
+        
+          
+                      
+            
+            <a href="/#technical" class="nav-link text-text-primary dark:text-text-primary">Tech Stack</a>
+          
+          
+        
+          
+                      
+            
+            <a href="/#contact" class="nav-link text-text-primary dark:text-text-primary">Contacto</a>
+          
+          
+        
+          
+                      
+            
+            <a href="/blog/" class="nav-link text-text-primary dark:text-text-primary">Blog</a>
+          
+          
+        
+          
+                      
+            
+            <a href="/proyectos" class="nav-link text-text-primary dark:text-text-primary">Proyectos</a>
+          
+          
+        
+        
+        
+        
+
+        
+        <div class="flex items-center space-x-4" data-animation="social">
+          
+          <a href="https://www.linkedin.com/in/delacruzchaico" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125">
+            <i class="fab fa-linkedin-in text-xl"></i>
+          </a>
+          
+          
+          <a href="https://github.com/delacruzchaico" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125">
+            <i class="fab fa-github text-xl"></i>
+          </a>
+          
+          
+          
+          <a href="https://calendly.com/gerald-delacruz-chaico/30min" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125" aria-label="Book a meeting on Calendly">
+            <img src="/images/calendly-icon.svg" alt="" class="w-6 h-6" width="24" height="24">
+          </a>
+          
+        </div>
+        
+        <button id="darkModeToggle" class="text-text-primary dark:text-text-primary focus:outline-none">
+          <i class="fas fa-toggle-on dark:hidden"></i>
+          <i class="fas fa-toggle-off hidden dark:block"></i>
+        </button>
+      </div>
+      <div class="lg:hidden flex items-center space-x-4">
+        
+        <button id="darkModeToggleMobile" class="text-text-primary dark:text-text-primary focus:outline-none">
+          <i class="fas fa-toggle-on dark:hidden"></i>
+          <i class="fas fa-toggle-off hidden dark:block"></i>
+        </button>
+        <button id="menu-btn" class="text-text-primary dark:text-text-primary">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="mobile-menu" class="hidden lg:hidden bg-bg dark:bg-bg shadow-lg">
+    <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+      
+        
+          
+          <a href="/#about" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">
+            Sobre mí
+          </a>
+        
+        
+      
+        
+          
+          <a href="/#skills" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">
+            Habilidades
+          </a>
+        
+        
+      
+        
+          
+          <a href="/#experience" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">
+            Experiencia
+          </a>
+        
+        
+      
+        
+          
+          <a href="/#technical" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">
+            Tech Stack
+          </a>
+        
+        
+      
+        
+          
+          <a href="/#contact" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">
+            Contacto
+          </a>
+        
+        
+      
+        
+          
+          <a href="/blog/" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">
+            Blog
+          </a>
+        
+        
+      
+        
+          
+          <a href="/proyectos" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">
+            Proyectos
+          </a>
+        
+        
+      
+      
+      
+      
+
+      
+      <div class="flex items-center space-x-6 px-3 py-3 border-t border-border-primary dark:border-border-primary mt-2" data-animation="social">
+        
+        <a href="https://www.linkedin.com/in/delacruzchaico" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125">
+          <i class="fab fa-linkedin-in text-2xl"></i>
+        </a>
+        
+        
+        <a href="https://github.com/delacruzchaico" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125">
+          <i class="fab fa-github text-2xl"></i>
+        </a>
+        
+        
+        
+        <a href="https://calendly.com/gerald-delacruz-chaico/30min" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125" aria-label="Book a meeting on Calendly">
+          <img src="/images/calendly-icon.svg" alt="" class="w-7 h-7" width="28" height="28">
+        </a>
+        
+      </div>
+    </div>
+  </div>
+
+  
+  <style>
+    .group.open .submenu {
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+  </style>
+
+  
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('Navigation script loaded');
+      
+      const sectionLinks = document.querySelectorAll('.section-link');
+      console.log('Found section links:', sectionLinks.length);
+      const homePath = '\/';
+      
+      sectionLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          console.log('Section link clicked:', this.getAttribute('data-section'));
+          
+          const section = this.getAttribute('data-section');
+          const isHomePage = window.location.pathname === homePath || window.location.pathname === homePath + 'index.html' || window.location.pathname === homePath.replace(/\/$/, '');
+          console.log('Is home page:', isHomePage);
+          
+          if (isHomePage) {
+            
+            const targetElement = document.querySelector(section);
+            console.log('Target element found:', !!targetElement);
+            if (targetElement) {
+              targetElement.scrollIntoView({
+                behavior: 'instant',
+                block: 'start'
+              });
+            }
+          } else {
+            
+            console.log('Navigating to:', homePath + section);
+            window.location.href = homePath + section;
+          }
+        });
+      });
+      
+      
+      function handleHashScroll() {
+        console.log('Checking for hash:', window.location.hash);
+        if (window.location.hash) {
+          const targetElement = document.querySelector(window.location.hash);
+          console.log('Hash target element found:', !!targetElement);
+          if (targetElement) {
+            
+            setTimeout(() => {
+              console.log('Scrolling to hash target');
+              targetElement.scrollIntoView({
+                behavior: 'instant',
+                block: 'start'
+              });
+            }, 100);
+          }
+        }
+      }
+      
+      
+      handleHashScroll();
+      
+      
+      setTimeout(handleHashScroll, 500);
+      setTimeout(handleHashScroll, 1000);
+      
+      
+      window.addEventListener('hashchange', function() {
+        console.log('Hash changed to:', window.location.hash);
+        handleHashScroll();
+      });
+      
+      
+      window.addEventListener('load', function() {
+        console.log('Window loaded, checking hash');
+        setTimeout(handleHashScroll, 200);
+      });
+    });
+    
+    
+    document.querySelectorAll('.group > a.nav-link, .group > button.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const group = this.closest('.group');
+        const isOpen = group.classList.contains('open');
+
+        
+        document.querySelectorAll('.group').forEach(g => g.classList.remove('open'));
+
+        
+        if (!isOpen) {
+          group.classList.add('open');
+        }
+      });
+
+      document.addEventListener('click', function(event) {
+        const group = link.closest('.group');
+        if (!group.contains(event.target)) {
+          group.classList.remove('open');
+        }
+      });
+    });
+
+    
+    function toggleDarkMode() {
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('darkMode', isDark);
+    }
+
+    document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
+    document.getElementById('darkModeToggleMobile').addEventListener('click', toggleDarkMode);
+
+    
+    document.querySelectorAll('#mobile-menu a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        document.getElementById('mobile-menu').classList.add('hidden');
+      });
+    });
+
+
+  </script>
+</nav>
+
+
+
+
+    <div class="w-full h-16"></div>
+
+    <main class="flex-grow">
+        
+<section id="home" class="flex items-center justify-center gradient-bg text-white relative overflow-hidden hero-section">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pt-16">
+    <div class="hero-inner-row flex flex-col lg:flex-row items-center justify-between gap-12 w-full">
+      
+      <div class="hero-profile-col lg:w-1/2 flex justify-center lg:justify-start mt-8 md:mt-0" data-animation="profile-column">
+        <div class="relative">
+          <div class="hero-profile-ring relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-primary p-1 shadow-2xl">
+            <div class="w-full h-full rounded-full overflow-hidden bg-white">
+              <img 
+                src="/images/delacruzchaico.jpg" 
+                alt="Portrait of Gerald de la Cruz" 
+                loading="lazy" 
+                decoding="async" 
+                class="object-cover w-full h-full rounded-full"
+              />
+            </div>
+            
+            <div class="absolute -bottom-4 -right-4 z-10" data-animation="location-badge">
+              <div class="hero-location-badge-scale">
+                <div class="flex items-center bg-black/80 backdrop-blur-sm text-white px-4 py-2 rounded-full shadow-xl border border-white/20 min-w-fit whitespace-nowrap">
+                  <i class="fas fa-map-marker-alt mr-2 text-primary-light flex-shrink-0"></i>
+                  <span class="font-semibold text-sm">Lima, Perú</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center lg:text-left mt-8 md:mt-0" style="width: 100%; max-width: 600px; min-width: 300px;">
+        
+        <div class="mb-4 mt-4 md:mt-0 hero-text-element" data-animation="greeting">
+          <span class="hero-text-accent font-medium text-lg block">Hola, soy</span>
+        </div>
+        
+        <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 font-heading leading-tight hero-name hero-text-element" data-animation="name">
+          Gerald de la Cruz
+        </h1>
+        
+        <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-6 font-light hero-text-accent hero-text-element w-full flex items-center justify-center lg:justify-start" data-animation="tagline">
+          <span class="typewriter w-full max-w-full text-center lg:text-left" data-original-text="Desarrollador de sistemas web CRM/EMR. Administración de sistemas Linux y base de datos.">Desarrollador de sistemas web CRM/EMR. Administración de sistemas Linux y base de datos.</span>
+        </h2>
+        
+        <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto lg:mx-0 hero-text-muted leading-relaxed hero-text-element px-4 py-3 rounded-lg" style="background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(8px);" data-animation="description">
+          Desarrollador de sistemas web Full-stack. Programando en todos lados desde el 2009. Estoy comprometido con la mejora continua, el pensamiento sistémico y me encanta participar en proyectos donde se use la tecnología para mejorar las estrategias de marketing.
+        </p>
+
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-end hero-text-element" data-animation="buttons">
+          <a href="#contact" class="bg-bg text-primary dark:text-white px-8 py-4 rounded-lg font-semibold hero-button button-hover">
+            Contáctame
+          </a>
+          <a href="/files/gerald_delacruz.pdf" target="_blank" rel="noopener" class="bg-bg text-primary dark:text-white px-8 py-4 rounded-lg font-semibold hero-button button-hover">
+            Ver CV
+          </a>
+        </div>
+        
+        <div class="flex justify-center lg:justify-end mt-8 mb-8 md:mb-0 hero-text-element" data-animation="social">
+          <div class="flex space-x-4 px-4 py-3 rounded-lg" style="background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(8px);">
+            
+            <a href="https://www.linkedin.com/in/delacruzchaico/" target="_blank" rel="noopener noreferrer" class="text-white transition-transform duration-300 hover:scale-125">
+              <i class="fab fa-linkedin-in text-3xl"></i>
+            </a>
+            
+            <a href="https://github.com/delacruzchaico" target="_blank" rel="noopener noreferrer" class="text-white transition-transform duration-300 hover:scale-125">
+              <i class="fab fa-github text-3xl"></i>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a
+    id="pexels-credit"
+    class="pexels-credit"
+    data-animation="pexels-credit"
+    href="https://www.pexels.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >Photo / Pexels</a>
+</section>
+  
+<section id="about" class="py-12 bg-bg dark:bg-bg relative about-section" data-animate>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <h2 class="text-3xl font-bold text-center mb-12 font-heading text-text-primary dark:text-text-primary about-text-element">Sobre mí</h2>
+    <div class="flex flex-col lg:flex-row gap-8">
+      <div class="flex-1 about-text-element">
+        <div class="bg-gradient-to-br from-bg-secondary to-bg-tertiary dark:from-bg-secondary dark:to-bg-tertiary p-6 rounded-xl shadow-lg border border-border-primary dark:border-border-primary">
+          <p class="text-lg text-text-secondary dark:text-text-secondary leading-relaxed">
+            Trabajo como <strong>Programador de sistemas web CRM/EMR</strong> —convierto objetivos comerciales, en soluciones software real para pequeñas empresas. Empecé en <strong>Soluciones Tec</strong> en Lima, de ahi pasé a <strong>la gestión documental y gestión de la calidad</strong> en SISA empresa especializada en ingeniería hidraúlica, y luego empece en OncoGyn donde implemente un <strong>CRM y EMR</strong>. Hoy soy <strong>estudiante de ingeniería empresarial</strong> trabajo como freelance, y estoy enfocado en la mejora continua, la integración de soluciones con IA y proyectos donde la tecnología y el marketing trabajen de la mano.
+          </p>
+          <div class="mt-6">
+            <a href="https://www.linkedin.com/in/delacruzchaico" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-gradient-primary text-white px-4 py-2 rounded-lg shadow-lg about-button button-hover">
+              <i class="fab fa-linkedin-in mr-3 text-lg"></i> 
+              Conectar en LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="flex-1">
+        <div class="bg-gradient-to-br from-bg-secondary to-bg-tertiary dark:from-bg-secondary dark:to-bg-tertiary p-6 rounded-xl shadow-lg border border-border-primary dark:border-border-primary about-card card-hover">
+        <div class="flex items-center justify-between mb-6 border-b border-border-primary dark:border-border-primary pb-3">
+          <h3 class="text-xl font-semibold font-heading text-text-primary dark:text-text-primary flex items-center about-text-element">
+            <i class="fas fa-info-circle mr-3 text-primary dark:text-white"></i>
+            Datos rápidos
+          </h3>
+          <button id="aboutModalBtn" class="bg-gradient-primary text-white px-6 py-2 rounded-lg shadow-lg font-semibold flex items-center about-button text-sm button-hover">
+            <i class="fas fa-book-open mr-2"></i>
+            Más
+          </button>
+        </div>
+        <div class="space-y-1.5">
+          
+            
+              <div class="flex items-start quick-fact-card about-text-element py-2 px-4 rounded-xl">
+                <i class="fas fa-briefcase text-primary dark:text-white text-lg mr-3"></i>
+                <div class="flex-1">
+                  <h4 class="font-bold text-gray-900 dark:text-text-primary mb-1 text-lg">Rol actual</h4>
+                  
+                  
+                  
+                  
+                  
+                  
+                    <p class="text-gray-700 dark:text-text-tertiary text-base leading-relaxed">Programador web fullstack</p>
+                  
+                </div>
+              </div>
+            
+              <div class="flex items-start quick-fact-card about-text-element py-2 px-4 rounded-xl">
+                <i class="fas fa-graduation-cap text-primary dark:text-white text-lg mr-3"></i>
+                <div class="flex-1">
+                  <h4 class="font-bold text-gray-900 dark:text-text-primary mb-1 text-lg">Educación</h4>
+                  
+                  
+                  
+                  
+                  
+                  
+                    <p class="text-gray-700 dark:text-text-tertiary text-base leading-relaxed">🏗️ <a href="https://uctp.edu.pe/" target="_blank" rel="noopener noreferrer">Universidad Tecnológica del Perú</a>, <strong>Ingeniería Empresarial</strong><br>🤖 <a href="#" target="_blank" rel="noopener noreferrer">Instituto Norbert Wiener</a>, <strong>Técnico en computación e informática</strong></p>
+                  
+                </div>
+              </div>
+            
+              <div class="flex items-start quick-fact-card about-text-element py-2 px-4 rounded-xl">
+                <i class="fas fa-award text-primary dark:text-white text-lg mr-3"></i>
+                <div class="flex-1">
+                  <h4 class="font-bold text-gray-900 dark:text-text-primary mb-1 text-lg">Logro reciente</h4>
+                  
+                  
+                  
+                  
+                  
+                  
+                    <p class="text-gray-700 dark:text-text-tertiary text-base leading-relaxed">🏆 10 años trabajando en la misma empresa 🎉</p>
+                  
+                </div>
+              </div>
+            
+              <div class="flex items-start quick-fact-card about-text-element py-2 px-4 rounded-xl">
+                <i class="fas fa-language text-primary dark:text-white text-lg mr-3"></i>
+                <div class="flex-1">
+                  <h4 class="font-bold text-gray-900 dark:text-text-primary mb-1 text-lg">Idiomas</h4>
+                  
+                  
+                  
+                  
+                  
+                  
+                    <div class="flex flex-wrap gap-2">
+                      
+                      
+                        
+                        
+                          <span class="inline-flex items-center px-3 py-1.5 text-gray-700 dark:text-text-tertiary text-base font-medium border border-border-primary dark:border-border-primary rounded-xl">
+                            AE Inglés (Profesional completo)
+                          </span>
+                        
+                      
+                        
+                        
+                          <span class="inline-flex items-center px-3 py-1.5 text-gray-700 dark:text-text-tertiary text-base font-medium border border-border-primary dark:border-border-primary rounded-xl">
+                            PE Español (Nativo)
+                          </span>
+                        
+                      
+                        
+                        
+                          <span class="inline-flex items-center px-3 py-1.5 text-gray-700 dark:text-text-tertiary text-base font-medium border border-border-primary dark:border-border-primary rounded-xl">
+                            DE Alemán (Básico)
+                          </span>
+                        
+                      
+                        
+                        
+                      
+                    </div>
+                  
+                </div>
+              </div>
+            
+              <div class="flex items-start quick-fact-card about-text-element py-2 px-4 rounded-xl">
+                <i class="fas fa-heart text-primary dark:text-white text-lg mr-3"></i>
+                <div class="flex-1">
+                  <h4 class="font-bold text-gray-900 dark:text-text-primary mb-1 text-lg">Intereses</h4>
+                  
+                  
+                  
+                  
+                  
+                  
+                    <div class="flex flex-wrap gap-2">
+                      
+                      
+                        
+                        
+                          <span class="inline-flex items-center px-3 py-1.5 text-gray-700 dark:text-text-tertiary text-base font-medium border border-border-primary dark:border-border-primary rounded-xl">
+                            ♟️ Ajedrez
+                          </span>
+                        
+                      
+                        
+                        
+                          <span class="inline-flex items-center px-3 py-1.5 text-gray-700 dark:text-text-tertiary text-base font-medium border border-border-primary dark:border-border-primary rounded-xl">
+                            🚴 Ciclismo
+                          </span>
+                        
+                      
+                        
+                        
+                          <span class="inline-flex items-center px-3 py-1.5 text-gray-700 dark:text-text-tertiary text-base font-medium border border-border-primary dark:border-border-primary rounded-xl">
+                            🛼 Patinaje
+                          </span>
+                        
+                      
+                        
+                        
+                          <span class="inline-flex items-center px-3 py-1.5 text-gray-700 dark:text-text-tertiary text-base font-medium border border-border-primary dark:border-border-primary rounded-xl">
+                            👨‍🍳 Cocina
+                          </span>
+                        
+                      
+                        
+                        
+                          <span class="inline-flex items-center px-3 py-1.5 text-gray-700 dark:text-text-tertiary text-base font-medium border border-border-primary dark:border-border-primary rounded-xl">
+                            📸 Fotografía
+                          </span>
+                        
+                      
+                        
+                        
+                          <span class="inline-flex items-center px-3 py-1.5 text-gray-700 dark:text-text-tertiary text-base font-medium border border-border-primary dark:border-border-primary rounded-xl">
+                            ✈️ Viajar
+                          </span>
+                        
+                      
+                        
+                        
+                          <span class="inline-flex items-center px-3 py-1.5 text-gray-700 dark:text-text-tertiary text-base font-medium border border-border-primary dark:border-border-primary rounded-xl">
+                            📚 Lectura
+                          </span>
+                        
+                      
+                        
+                        
+                      
+                    </div>
+                  
+                </div>
+              </div>
+            
+          
+        </div>
+      </div>
+    </div>
+
+  
+  
+  <div id="aboutModal" class="fixed inset-0 bg-bg bg-opacity-50 z-50 hidden items-center justify-center px-4 py-16">
+    <div class="bg-bg dark:bg-bg rounded-xl shadow-2xl w-full max-w-5xl lg:max-w-6xl max-h-[70vh] lg:max-h-[80vh] overflow-y-auto sidebar-scroll">
+      <div class="p-8">
+        <div class="flex justify-between items-center mb-6">
+          <h3 class="text-2xl font-bold text-text-primary dark:text-text-primary">Sobre Gerald de la Cruz</h3>
+          <button id="closeAboutModal" class="text-text-muted text-text-secondary dark:text-text-muted text-2xl font-bold">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        
+        <div class="space-y-6 text-text-secondary dark:text-text-secondary">
+          <p class="text-lg leading-relaxed">Trabajo como <strong>Programador de sistemas web CRM/EMR</strong> —convierto objetivos comerciales, en soluciones software real para pequeñas empresas. Empecé en <strong>Soluciones Tec</strong> en Lima, de ahi pasé a <strong>la gestión documental y gestión de la calidad</strong> en SISA empresa especializada en ingeniería hidraúlica, y luego empece en OncoGyn donde implemente un <strong>CRM y EMR</strong>. Hoy soy <strong>estudiante de ingeniería empresarial</strong> trabajo como freelance, y estoy enfocado en la mejora continua, la integración de soluciones con IA y proyectos donde la tecnología y el marketing trabajen de la mano.</p>
+          <p class="text-lg leading-relaxed">Desde <strong>el 2025</strong>, sigo profundizando en <strong>IA</strong> y <strong>Marketing</strong> (CRM, Storytelling, ABT, Design Thinking), complementando mi trabajo diario como <strong>Freelance</strong> en Surquillo.</p>
+
+          <div class="bg-gradient-primary-lighter p-6 rounded-xl border border-primary-light">
+            <h4 class="text-xl font-semibold mb-3 text-primary-dark flex items-center">
+              <i class="fas fa-heart mr-3 text-second"></i>
+              En qué me enfoco
+            </h4>
+            <p class="text-primary-dark leading-relaxed">Mi método es de un <strong>design thinker</strong> uniendo <strong>visión de producto</strong> e <strong>ingeniería de sistemas</strong>. Diseño e implemento <strong>funcionalidades centradas en el usuario</strong> que equilibran cumplimiento técnico y normativo junto con experiencia de usuario para que las organizaciones adopten <strong>las nuevas tecnologías</strong> de forma <strong>segura, auditable y alineada con el negocio</strong>. En la actualidad estoy buscando un proyecto en el sector salud, construyendo con <strong>PHP</strong> y <strong>MySQL</strong> un EMR moderno y lígero para centros ginecológicos.</p>
+          </div>
+
+          <p class="text-lg leading-relaxed">Mi trayectoria desde <strong>desarrollo de software</strong> hasta <strong>analisis de sistemas CRM</strong> conecta <strong>pensamiento de sistemas</strong> con <strong>entrega de software</strong>: de algoritmos y estructura de datos al <strong>pensamiento de diseño</strong> y herramientas empresariales. Priorizo <strong>resultados concretos</strong>: requisitos claros, impacto medible y sistemas fiables.</p>
+          <p class="text-lg leading-relaxed">Fuera del trabajo, disfruto el <strong>magic</strong>, la <strong>cocina</strong>, la <strong>música</strong>, el <strong>patinaje</strong> y la <strong>fotografía</strong>. También <strong>participo activamente como voluntario en el colegio de mi hijo</strong>, apoyando a la gran comunidad del Victoria Barcia Bonifatti.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('aboutModal');
+  const modalBtn = document.getElementById('aboutModalBtn');
+  const closeBtn = document.getElementById('closeAboutModal');
+
+  
+  modalBtn.addEventListener('click', function() {
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+  });
+
+  
+  function closeModal() {
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    document.body.style.overflow = 'auto';
+  }
+
+  closeBtn.addEventListener('click', closeModal);
+
+  
+  modal.addEventListener('click', function(e) {
+    if (e.target === modal) {
+      closeModal();
+    }
+  });
+
+  
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+      closeModal();
+    }
+  });
+});
+</script>
+
+  
+ 
+<section id="skills" class="py-12 bg-bg-secondary dark:bg-bg-secondary skills-section border-t border-border-primary" data-animate>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+      
+      <h2 class="text-3xl font-bold text-center mb-4 font-heading text-text-primary dark:text-text-primary">Habilidades</h2>
+      <p class="text-lg text-center mb-12 text-text-secondary dark:text-text-tertiary italic">Desarrollo de software: diseño de soluciones integrales y arquitectura empresarial, entrega full stack y colaboración clara con producto, seguridad y clientes.</p>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        
+        <div class="bg-bg dark:bg-bg p-6 rounded-xl shadow-md skill-card border border-border-primary dark:border-border-primary card-hover" data-animate>
+          <div class="flex items-center mb-4">
+            
+            
+            <i class="fas fa-brain text-3xl mr-4 text-primary" aria-hidden="true"></i>
+            <h3 class="text-lg font-heading font-bold text-text-primary dark:text-text-primary">Chatbos IA</h3>
+          </div>
+          <p class="text-text-secondary dark:text-text-tertiary text-base leading-relaxed">Agentes LLM, diseño de prompts y políticas, guardrails, seguridad en IA, diseño de producto orientado al cumplimiento y definición de alcance con PMs y clientes.</p>
+        </div>
+        
+        <div class="bg-bg dark:bg-bg p-6 rounded-xl shadow-md skill-card border border-border-primary dark:border-border-primary card-hover" data-animate>
+          <div class="flex items-center mb-4">
+            
+            
+            <i class="fas fa-code text-3xl mr-4 text-third-light" aria-hidden="true"></i>
+            <h3 class="text-lg font-heading font-bold text-text-primary dark:text-text-primary">Desarrollo full stack en WEB</h3>
+          </div>
+          <p class="text-text-secondary dark:text-text-tertiary text-base leading-relaxed">Python, PHP, Laravel, PostgreSQL y MySQL y despliegue moderno integrado para entregar funcionalidades fiables.</p>
+        </div>
+        
+        <div class="bg-bg dark:bg-bg p-6 rounded-xl shadow-md skill-card border border-border-primary dark:border-border-primary card-hover" data-animate>
+          <div class="flex items-center mb-4">
+            
+            
+            <i class="fas fa-lock text-3xl mr-4 text-primary" aria-hidden="true"></i>
+            <h3 class="text-lg font-heading font-bold text-text-primary dark:text-text-primary">Marketing de servicios y design thinking</h3>
+          </div>
+          <p class="text-text-secondary dark:text-text-tertiary text-base leading-relaxed">Descubrimiento de insights, encuadre de riesgos, customer journey map, service blueprint y cumplimiento—priorizados en roadmaps y funcionalidades entregadas.</p>
+        </div>
+        
+        <div class="bg-bg dark:bg-bg p-6 rounded-xl shadow-md skill-card border border-border-primary dark:border-border-primary card-hover" data-animate>
+          <div class="flex items-center mb-4">
+            
+            
+            <i class="fas fa-tools text-3xl mr-4 text-error" aria-hidden="true"></i>
+            <h3 class="text-lg font-heading font-bold text-text-primary dark:text-text-primary">Administración de servidores Linux</h3>
+          </div>
+          <p class="text-text-secondary dark:text-text-tertiary text-base leading-relaxed">Base sólida en Bash scripting, networking y docker para orquestar servicios complejos.</p>
+        </div>
+        
+        <div class="bg-bg dark:bg-bg p-6 rounded-xl shadow-md skill-card border border-border-primary dark:border-border-primary card-hover" data-animate>
+          <div class="flex items-center mb-4">
+            
+            
+            <i class="fas fa-users text-3xl mr-4 text-error" aria-hidden="true"></i>
+            <h3 class="text-lg font-heading font-bold text-text-primary dark:text-text-primary">Colaboración y liderazgo</h3>
+          </div>
+          <p class="text-text-secondary dark:text-text-tertiary text-base leading-relaxed">Entrega ágil con equipos distribuidos; liderazgo de I&#43;D y trabajo transversal desde el descubrimiento hasta el release.</p>
+        </div>
+        
+        <div class="bg-bg dark:bg-bg p-6 rounded-xl shadow-md skill-card border border-border-primary dark:border-border-primary card-hover" data-animate>
+          <div class="flex items-center mb-4">
+            
+            
+            <i class="fas fa-globe text-3xl mr-4 text-success" aria-hidden="true"></i>
+            <h3 class="text-lg font-heading font-bold text-text-primary dark:text-text-primary">Idiomas e internacional</h3>
+          </div>
+          <p class="text-text-secondary dark:text-text-tertiary text-base leading-relaxed">Español nativo; inglés para contextos de producto y clientes internacionales.</p>
+        </div>
+        
+        <div class="bg-bg dark:bg-bg p-6 rounded-xl shadow-md skill-card border border-border-primary dark:border-border-primary card-hover" data-animate>
+          <div class="flex items-center mb-4">
+            
+            
+            <i class="fas fa-hands-helping text-3xl mr-4 text-success" aria-hidden="true"></i>
+            <h3 class="text-lg font-heading font-bold text-text-primary dark:text-text-primary">Comunidad y aprendizaje</h3>
+          </div>
+          <p class="text-text-secondary dark:text-text-tertiary text-base leading-relaxed">Me encanta el open source y publico mis proyectos en github y trabajo en mi formación continua</p>
+        </div>
+        
+      </div>
+
+      <div class="text-center">
+        <div class="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+          
+        </div>
+      </div>
+
+    
+  </div>
+</section>
+
+
+  
+<section id="experience" class="py-12 bg-bg dark:bg-bg border-t border-border-primary" data-animate>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <h2 class="text-3xl font-bold text-center mb-4 font-heading text-text-primary dark:text-text-primary">Experiencia</h2>
+    <p class="text-lg text-center mb-12 text-gray-700 dark:text-text-tertiary italic">De la programación de sistemas al pensamiento de diseño: plataformas y herramientas que conectan profundidad técnica con resultados de producto y negocio.</p>
+
+    
+    <div class="text-center mb-12">
+      <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center items-center">
+        
+        
+      
+        
+        
+        
+          
+          
+            
+          
+        
+
+        
+        
+          
+          
+        
+          
+          
+            <a href="/files/gerald_delacruz.pdf" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center bg-gradient-primary text-white text-sm sm:text-lg px-4 sm:px-6 py-4 rounded-lg font-semibold shadow-lg w-auto sm:w-auto button-hover">
+              <i class="fas fa-file-pdf text-2xl mr-3"></i>
+              Descargar CV (Español)
+            </a>
+          
+        
+
+      </div>
+    </div>
+
+    
+    <div class="relative pt-4">
+      
+      <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 transform -translate-x-1/2 shadow-lg z-0 timeline-line"></div>
+
+      
+      <div class="space-y-8 md:space-y-16">
+        
+        <div class="relative timeline-item" data-animate>
+          
+          <div class="hidden md:block absolute left-1/2 top-2 w-4 h-4 rounded-full border-4 transform -translate-x-1/2 z-20 timeline-bullet shadow-lg"></div>
+          
+          
+          <div class="md:hidden px-4 text-center mb-4">
+            <div class="inline-block bg-gradient-primary text-white px-4 py-2 rounded-full text-sm font-medium shadow-lg">
+              <i class="fas fa-calendar-alt mr-2"></i>Abril 2016 - Marzo 2026
+            </div>
+          </div>
+          
+          <div class="flex flex-col md:flex-row gap-8 justify-center">
+            
+            <div class="md:w-1/2 px-4 flex justify-end">
+              <div class="max-w-sm w-full">
+                
+                <div class="company-card bg-bg dark:bg-bg p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary card-hover">
+                  
+                  
+                  
+                  
+                  <h3 class="text-xl font-heading font-bold text-text-primary dark:text-text-primary mb-2">
+                    
+                    <a href="https://oncogyn.com.pe" target="_blank" rel="noopener noreferrer" class="company-link group">
+                      OncoGyn
+                      <i class="fas fa-external-link-alt ml-2 text-primary dark:text-primary-light opacity-0 text-sm"></i>
+                    </a>
+                    
+                  </h3>
+                  
+                  <div class="mb-3 w-full">
+                    
+                    <div class="flex h-28 w-full items-center justify-center overflow-hidden rounded-md bg-white p-3">
+                      <img
+                        src="/images/companies/oncogyn.png"
+                        alt="OncoGyn"
+                        loading="lazy"
+                        decoding="async"
+                        class="max-h-full max-w-full object-contain object-center"
+                      />
+                    </div>
+                  </div>
+                  
+                  <h4 class="text-primary dark:text-white font-semibold text-lg mb-3">Coordinador de innovación</h4>
+                  
+                  
+                  <div class="flex flex-wrap gap-2 mb-3">
+                    
+                    <span class="inline-flex items-center bg-third-darker text-white px-3 py-1 rounded-full text-xs font-medium">
+                      <i class="fas fa-industry mr-1"></i>Sector Salud
+                    </span>
+                    
+                    
+                    <span class="inline-flex items-center bg-primary text-white px-3 py-1 rounded-full text-xs font-medium">
+                      <i class="fas fa-map-marker-alt mr-1"></i>Miraflores, Lima - Perú
+                    </span>
+                    
+                    
+                  </div>
+                  
+                  
+                  
+                  <p class="text-sm text-gray-700 dark:text-text-tertiary italic border-l-4 border-primary-light pl-3">
+                    Centros ginecológicos para la prevención del cáncer de cuello uterino, laboratorios de fertilidad, clínica quirúrgica, clínica de fertilidad.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="md:w-1/2 px-4">
+              
+              <div class="hidden md:block bg-gradient-primary text-white px-4 py-2 rounded-full text-sm font-medium mb-3 shadow-lg w-fit">
+                <i class="fas fa-calendar-alt mr-2"></i>Abril 2016 - Marzo 2026
+              </div>
+              
+              <div class="achievements-card bg-gradient-to-br from-bg-secondary to-bg-tertiary dark:from-bg-secondary dark:to-bg-tertiary p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary card-hover">
+                <div class="flex items-center mb-4">
+                  <i class="fas fa-tasks text-third dark:text-third-light mr-3 text-lg"></i>
+                  <h5 class="text-lg font-semibold text-text-primary dark:text-text-primary">Logros clave</h5>
+                </div>
+                <ul class="space-y-3 text-gray-700 dark:text-text-secondary">
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Desarrollo a medida del ERP de la empresa (CAJA, RRHH, ASISTENCIAL, COUNTER, ADMINISTRACIÓN).</span>
+                  </li>
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Gestión de Infraestructura y Despliegue: Supervisé la implementación de un datacenter on premise, asegurando alta disponibilidad y cumpliendo con estándares de seguridad de datos para proteger la información sensible de los pacientes.</span>
+                  </li>
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Automatización de Informes Médicos: Implementé un motor de generación dinámica de informes que redujo significativamente el tiempo de entrega y eliminó la necesidad de un area de digitación para la generación de informes complejos.</span>
+                  </li>
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Integración de Canales de Comunicación: Desarrollé e integré soluciones de automatización (incluyendo chatbots y sistemas de seguimiento) para optimizar el patient journey y la retención de usuarios.</span>
+                  </li>
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Integración con lectores biométricos para la carga de marcaciones de asistencia para la generación de formato de planillas en excel.</span>
+                  </li>
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Transformación Digital Operativa: Rediseñé los flujos de trabajo entre las áreas médicas y administrativas, migrando procesos legacy a flujos digitales eficientes, lo que resultó en una mejora medible en la capacidad operativa de la clínica.</span>
+                  </li>
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Stack Tecnológico: Desarrollo Fullstack, Gestión de Bases de Datos Relacionales, Arquitectura de Microservicios, Integraciones de API y DevOps.</span>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="relative timeline-item" data-animate>
+          
+          <div class="hidden md:block absolute left-1/2 top-2 w-4 h-4 rounded-full border-4 transform -translate-x-1/2 z-20 timeline-bullet shadow-lg"></div>
+          
+          
+          <div class="md:hidden px-4 text-center mb-4">
+            <div class="inline-block bg-gradient-primary text-white px-4 py-2 rounded-full text-sm font-medium shadow-lg">
+              <i class="fas fa-calendar-alt mr-2"></i>Setiembre 2012 - Octubre 2014
+            </div>
+          </div>
+          
+          <div class="flex flex-col md:flex-row gap-8 justify-center">
+            
+            <div class="md:w-1/2 px-4 flex justify-end">
+              <div class="max-w-sm w-full">
+                
+                <div class="company-card bg-bg dark:bg-bg p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary card-hover">
+                  
+                  
+                  
+                  
+                  <h3 class="text-xl font-heading font-bold text-text-primary dark:text-text-primary mb-2">
+                    
+                    <a href="https://sisa.com.pe" target="_blank" rel="noopener noreferrer" class="company-link group">
+                      SISA
+                      <i class="fas fa-external-link-alt ml-2 text-primary dark:text-primary-light opacity-0 text-sm"></i>
+                    </a>
+                    
+                  </h3>
+                  
+                  <div class="mb-3 w-full">
+                    
+                    <div class="flex h-28 w-full items-center justify-center overflow-hidden rounded-md bg-white p-3">
+                      <img
+                        src="/images/companies/sisa.png"
+                        alt="SISA"
+                        loading="lazy"
+                        decoding="async"
+                        class="max-h-full max-w-full object-contain object-center"
+                      />
+                    </div>
+                  </div>
+                  
+                  <h4 class="text-primary dark:text-white font-semibold text-lg mb-3">Analista de sistemas y procesos</h4>
+                  
+                  
+                  <div class="flex flex-wrap gap-2 mb-3">
+                    
+                    <span class="inline-flex items-center bg-third-darker text-white px-3 py-1 rounded-full text-xs font-medium">
+                      <i class="fas fa-industry mr-1"></i>Consultoría 
+                    </span>
+                    
+                    
+                    <span class="inline-flex items-center bg-primary text-white px-3 py-1 rounded-full text-xs font-medium">
+                      <i class="fas fa-map-marker-alt mr-1"></i>San Isidro, Lima - Perú
+                    </span>
+                    
+                    
+                  </div>
+                  
+                  
+                  
+                  <p class="text-sm text-gray-700 dark:text-text-tertiary italic border-l-4 border-primary-light pl-3">
+                    Empresa de ingeniería civil especializadas en estructuras hidraúlicas
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="md:w-1/2 px-4">
+              
+              <div class="hidden md:block bg-gradient-primary text-white px-4 py-2 rounded-full text-sm font-medium mb-3 shadow-lg w-fit">
+                <i class="fas fa-calendar-alt mr-2"></i>Setiembre 2012 - Octubre 2014
+              </div>
+              
+              <div class="achievements-card bg-gradient-to-br from-bg-secondary to-bg-tertiary dark:from-bg-secondary dark:to-bg-tertiary p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary card-hover">
+                <div class="flex items-center mb-4">
+                  <i class="fas fa-tasks text-third dark:text-third-light mr-3 text-lg"></i>
+                  <h5 class="text-lg font-semibold text-text-primary dark:text-text-primary">Logros clave</h5>
+                </div>
+                <ul class="space-y-3 text-gray-700 dark:text-text-secondary">
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Encargado de desarrollo del gestor documental para centralizar los proyectos en un solo repositorio</span>
+                  </li>
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Analisis y rediseño de procesos para cumplir con la normativa ISO 9001:2008</span>
+                  </li>
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Transcripción de memorias descriptivas manuscritas a formato digital en MathCad para ser usados como plantillas para otros proyectos.</span>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="relative timeline-item" data-animate>
+          
+          <div class="hidden md:block absolute left-1/2 top-2 w-4 h-4 rounded-full border-4 transform -translate-x-1/2 z-20 timeline-bullet shadow-lg"></div>
+          
+          
+          <div class="md:hidden px-4 text-center mb-4">
+            <div class="inline-block bg-gradient-primary text-white px-4 py-2 rounded-full text-sm font-medium shadow-lg">
+              <i class="fas fa-calendar-alt mr-2"></i>Enero 2009 - Octubre 2012
+            </div>
+          </div>
+          
+          <div class="flex flex-col md:flex-row gap-8 justify-center">
+            
+            <div class="md:w-1/2 px-4 flex justify-end">
+              <div class="max-w-sm w-full">
+                
+                <div class="company-card bg-bg dark:bg-bg p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary card-hover">
+                  
+                  
+                  
+                  
+                  <h3 class="text-xl font-heading font-bold text-text-primary dark:text-text-primary mb-2">
+                    
+                    <a href="https://solucionestecperu.com" target="_blank" rel="noopener noreferrer" class="company-link group">
+                      Soluciones Tec
+                      <i class="fas fa-external-link-alt ml-2 text-primary dark:text-primary-light opacity-0 text-sm"></i>
+                    </a>
+                    
+                  </h3>
+                  
+                  <div class="mb-3 w-full">
+                    
+                    <div class="flex h-28 w-full items-center justify-center overflow-hidden rounded-md bg-white p-3">
+                      <img
+                        src="/images/companies/soluciones-tec-peru.png"
+                        alt="Soluciones Tec"
+                        loading="lazy"
+                        decoding="async"
+                        class="max-h-full max-w-full object-contain object-center"
+                      />
+                    </div>
+                  </div>
+                  
+                  <h4 class="text-primary dark:text-white font-semibold text-lg mb-3">Analista programador</h4>
+                  
+                  
+                  <div class="flex flex-wrap gap-2 mb-3">
+                    
+                    <span class="inline-flex items-center bg-third-darker text-white px-3 py-1 rounded-full text-xs font-medium">
+                      <i class="fas fa-industry mr-1"></i>Desarrollo de software
+                    </span>
+                    
+                    
+                    <span class="inline-flex items-center bg-primary text-white px-3 py-1 rounded-full text-xs font-medium">
+                      <i class="fas fa-map-marker-alt mr-1"></i>Lince, Lima - Perú
+                    </span>
+                    
+                    
+                  </div>
+                  
+                  
+                  
+                  <p class="text-sm text-gray-700 dark:text-text-tertiary italic border-l-4 border-primary-light pl-3">
+                    Fabrice de software especializada en soluciones a medida y proyectos con el estado
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="md:w-1/2 px-4">
+              
+              <div class="hidden md:block bg-gradient-primary text-white px-4 py-2 rounded-full text-sm font-medium mb-3 shadow-lg w-fit">
+                <i class="fas fa-calendar-alt mr-2"></i>Enero 2009 - Octubre 2012
+              </div>
+              
+              <div class="achievements-card bg-gradient-to-br from-bg-secondary to-bg-tertiary dark:from-bg-secondary dark:to-bg-tertiary p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary card-hover">
+                <div class="flex items-center mb-4">
+                  <i class="fas fa-tasks text-third dark:text-third-light mr-3 text-lg"></i>
+                  <h5 class="text-lg font-semibold text-text-primary dark:text-text-primary">Logros clave</h5>
+                </div>
+                <ul class="space-y-3 text-gray-700 dark:text-text-secondary">
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Mantenimiento y desarrollo de nuevas funcionalidad a los sistemas del brochure de la empresa</span>
+                  </li>
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Diseño de procesos ETL para analizar Logs de distintas fuentes (Txt, Informix, html).</span>
+                  </li>
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Refactorización de código de sistemas legacy</span>
+                  </li>
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Lider de producto: sistema BiblioTK</span>
+                  </li>
+                  
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-second mr-3 mt-1 flex-shrink-0"></i>
+                    <span>Desarrollo de sistema de gestión ciudadana</span>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+<section id="technical" class="py-12 bg-bg-secondary dark:bg-bg-secondary border-t border-border-primary" data-animate>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+      
+      <h2 class="text-3xl font-bold text-center mb-4 font-heading text-text-primary dark:text-text-primary">Tech Stack</h2>
+      <p class="text-lg text-center mb-12 text-gray-700 dark:text-text-tertiary italic">Kit de implementación que apoya la ingeniería de producto: lenguajes, frameworks, datos, IA/ML y software de ingeniería para entregar funcionalidades de extremo a extremo.</p>
+
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        
+        <div class="bg-gradient-to-br from-bg-secondary to-bg-tertiary dark:from-bg-secondary dark:to-bg-tertiary p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary tech-skill-card card-hover"
+             data-animate>
+          <div class="project-inner">
+            
+            <div class="mb-4 text-center">
+              <h3 class="text-xl font-heading font-semibold text-text-primary dark:text-text-primary">Lenguajes de Programación</h3>
+            </div>
+            
+            
+            <div class="flex flex-wrap gap-8 justify-center">
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="PHP"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="php"
+                         data-devicon-style="original"
+                         data-fa-icon="php" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">PHP</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Python"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="python"
+                         data-devicon-style="original"
+                         data-fa-icon="python" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Python</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="JavaScript"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="javascript"
+                         data-devicon-style="original"
+                         data-fa-icon="js" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">JavaScript</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Jquery"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="jquery"
+                         data-devicon-style="original"
+                         data-fa-icon="jquery" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Jquery</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="C#"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="csharp"
+                         data-devicon-style="original"
+                         data-fa-icon="csharp" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">C#</span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="bg-gradient-to-br from-bg-secondary to-bg-tertiary dark:from-bg-secondary dark:to-bg-tertiary p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary tech-skill-card card-hover"
+             data-animate>
+          <div class="project-inner">
+            
+            <div class="mb-4 text-center">
+              <h3 class="text-xl font-heading font-semibold text-text-primary dark:text-text-primary">Fundamentos Web</h3>
+            </div>
+            
+            
+            <div class="flex flex-wrap gap-8 justify-center">
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="HTML"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="html5"
+                         data-devicon-style="original"
+                         data-fa-icon="html5" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">HTML</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="CSS"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="css3"
+                         data-devicon-style="original"
+                         data-fa-icon="css3-alt" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">CSS</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Tailwind CSS"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="tailwindcss"
+                         data-devicon-style="original"
+                         data-fa-icon="wind" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Tailwind CSS</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Wordpress"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="wordpress"
+                         data-devicon-style="original"
+                         data-fa-icon="wordpress" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Wordpress</span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="bg-gradient-to-br from-bg-secondary to-bg-tertiary dark:from-bg-secondary dark:to-bg-tertiary p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary tech-skill-card card-hover"
+             data-animate>
+          <div class="project-inner">
+            
+            <div class="mb-4 text-center">
+              <h3 class="text-xl font-heading font-semibold text-text-primary dark:text-text-primary">Web y UI</h3>
+            </div>
+            
+            
+            <div class="flex flex-wrap gap-8 justify-center">
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="FastAPI"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="fastapi"
+                         data-devicon-style="original"
+                         data-fa-icon="bolt" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">FastAPI</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="React"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="react"
+                         data-devicon-style="original"
+                         data-fa-icon="atom" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">React</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Next.js"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 dark:invert dark:brightness-200"
+                         data-animation="skill-icon"
+                         data-devicon-name="nextjs"
+                         data-devicon-style="original"
+                         data-fa-icon="forward" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Next.js</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Vite"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="vite"
+                         data-devicon-style="original"
+                         data-fa-icon="zap" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Vite</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Vue.js"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="vuejs"
+                         data-devicon-style="original"
+                         data-fa-icon="vuejs" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Vue.js</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Bootstrap"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="bootstrap"
+                         data-devicon-style="original"
+                         data-fa-icon="bootstrap" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Bootstrap</span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="bg-gradient-to-br from-bg-secondary to-bg-tertiary dark:from-bg-secondary dark:to-bg-tertiary p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary tech-skill-card card-hover"
+             data-animate>
+          <div class="project-inner">
+            
+            <div class="mb-4 text-center">
+              <h3 class="text-xl font-heading font-semibold text-text-primary dark:text-text-primary">Frameworks &amp; Devops</h3>
+            </div>
+            
+            
+            <div class="flex flex-wrap gap-8 justify-center">
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="laravel"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="laravel"
+                         data-devicon-style="original"
+                         data-fa-icon="laravel" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">laravel</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Flask"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="flask"
+                         data-devicon-style="original"
+                         data-fa-icon="flask" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Flask</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="terraform"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="terraform"
+                         data-devicon-style="original"
+                         data-fa-icon="terraform" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">terraform</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="ansible"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="ansible"
+                         data-devicon-style="original"
+                         data-fa-icon="ansible" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">ansible</span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="bg-gradient-to-br from-bg-secondary to-bg-tertiary dark:from-bg-secondary dark:to-bg-tertiary p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary tech-skill-card card-hover"
+             data-animate>
+          <div class="project-inner">
+            
+            <div class="mb-4 text-center">
+              <h3 class="text-xl font-heading font-semibold text-text-primary dark:text-text-primary">Herramientas de Desarrollo</h3>
+            </div>
+            
+            
+            <div class="flex flex-wrap gap-8 justify-center">
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Git"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="git"
+                         data-devicon-style="original"
+                         data-fa-icon="code-branch" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Git</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="GitHub"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 dark:invert dark:brightness-200"
+                         data-animation="skill-icon"
+                         data-devicon-name="github"
+                         data-devicon-style="original"
+                         data-fa-icon="github" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">GitHub</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="VSCode"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="vscode"
+                         data-devicon-style="original"
+                         data-fa-icon="code" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">VSCode</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Linux"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="linux"
+                         data-devicon-style="original"
+                         data-fa-icon="linux" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Linux</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Debian"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="debian"
+                         data-devicon-style="original"
+                         data-fa-icon="debian" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Debian</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Docker"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="docker"
+                         data-devicon-style="original"
+                         data-fa-icon="docker" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Docker</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="npm"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="npm"
+                         data-devicon-style="original"
+                         data-fa-icon="npm" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">npm</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="latex"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="latex"
+                         data-devicon-style="original"
+                         data-fa-icon="latex" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">latex</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="emacs"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="emacs"
+                         data-devicon-style="original"
+                         data-fa-icon="emacs" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">emacs</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Postman"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="postman"
+                         data-devicon-style="original"
+                         data-fa-icon="paper-plane" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Postman</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Nginx"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="nginx"
+                         data-devicon-style="original"
+                         data-fa-icon="server" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Nginx</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="Hugo"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="hugo"
+                         data-devicon-style="original"
+                         data-fa-icon="rocket" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">Hugo</span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="bg-gradient-to-br from-bg-secondary to-bg-tertiary dark:from-bg-secondary dark:to-bg-tertiary p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary tech-skill-card card-hover"
+             data-animate>
+          <div class="project-inner">
+            
+            <div class="mb-4 text-center">
+              <h3 class="text-xl font-heading font-semibold text-text-primary dark:text-text-primary">Bases de Datos</h3>
+            </div>
+            
+            
+            <div class="flex flex-wrap gap-8 justify-center">
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="PostgreSQL"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="postgresql"
+                         data-devicon-style="original"
+                         data-fa-icon="elephant" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">PostgreSQL</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="MySQL"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="mysql"
+                         data-devicon-style="original"
+                         data-fa-icon="database" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">MySQL</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="SQLite"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="sqlite"
+                         data-devicon-style="original"
+                         data-fa-icon="database" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">SQLite</span>
+              </div>
+              
+              <div class="flex flex-col items-center text-center">
+                
+                  
+                  
+                  
+                  <div class="h-16 flex items-center justify-center mb-1">
+                    <img alt="MS Sql Server"
+                         width="64"
+                         height="64"
+                         loading="lazy"
+                         class="w-16 h-16 box-border rounded-md p-1 dark:bg-white/25 dark:ring-1 dark:ring-white/25 dark:brightness-135 dark:contrast-115 dark:opacity-100 "
+                         data-animation="skill-icon"
+                         data-devicon-name="microsoftsqlserver"
+                         data-devicon-style="original"
+                         data-fa-icon="microsoftsqlserver" />
+                  </div>
+                
+                <span class="text-sm md:text-base font-semibold text-text-secondary dark:text-text-secondary">MS Sql Server</span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    
+  </div>
+</section> 
+
+<section id="testimonials"
+    class="py-12 bg-bg-secondary dark:bg-bg-secondary testimonials-section border-t border-border-primary" data-animate>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+    </div>
+</section>
+<section id="contact" class="py-12 bg-bg dark:bg-bg border-t border-border-primary" data-animate>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-center mb-4 font-heading text-text-primary dark:text-text-primary">Conectemos</h2>
+    
+    
+    <div class="flex justify-center mb-12">
+      <button type="button" class="calendly-open-trigger bg-gradient-primary text-white px-6 py-3 rounded-lg shadow-lg font-semibold text-base button-hover flex items-center">
+        <img src="/images/calendly-icon.svg" alt="" class="w-5 h-5 mr-2" width="20" height="20"> Agenda una cita en mi Calendly
+      </button>
+    </div>
+    
+
+    <div class="flex flex-col lg:flex-row justify-center gap-12">
+      
+      <div class="lg:w-1/2">
+        <div class="contact-card bg-bg dark:bg-bg p-8 rounded-lg shadow-lg border border-border-primary dark:border-border-primary card-hover">
+          <h3 class="text-xl font-semibold mb-6 text-text-primary dark:text-text-primary">Envíame un mensaje</h3>
+          <form id="contact-form" action="" method="POST" class="space-y-6">
+            <input type="text" name="_gotcha" style="display:none">
+            <div class="flex flex-col sm:flex-row gap-4">
+              <div class="flex-1">
+                <label for="name" class="block text-sm font-medium text-gray-700 dark:text-text-secondary mb-1">Nombre</label>
+                <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-border-primary dark:border-border-primary rounded-lg focus:ring-primary focus:border-primary dark:bg-bg dark:text-text-primary" required>
+              </div>
+              <div class="flex-1">
+                <label for="email" class="block text-sm font-medium text-gray-700 dark:text-text-secondary mb-1">Email</label>
+                <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-border-primary dark:border-border-primary rounded-lg focus:ring-primary focus:border-primary dark:bg-bg dark:text-text-primary" required>
+              </div>
+            </div>
+            <div>
+              <label for="subject" class="block text-sm font-medium text-gray-700 dark:text-text-secondary mb-1">Asunto</label>
+              <input type="text" id="subject" name="subject" class="w-full px-4 py-2 border border-border-primary dark:border-border-primary rounded-lg focus:ring-primary focus:border-primary dark:bg-bg dark:text-text-primary" required>
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-700 dark:text-text-secondary mb-1">Mensaje</label>
+              <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-border-primary dark:border-border-primary rounded-lg focus:ring-primary focus:border-primary dark:bg-bg dark:text-text-primary" required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="bg-gradient-primary text-white px-6 py-3 rounded-lg font-medium shadow-lg button-hover">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      
+      <div class="lg:w-1/2">
+        
+        <div class="contact-card bg-bg dark:bg-bg p-8 rounded-lg shadow-lg border border-border-primary dark:border-border-primary h-full card-hover">
+          <h3 class="text-xl font-semibold mb-6 text-text-primary dark:text-text-primary">Información de contacto</h3>
+          <p class="mb-6 text-gray-700 dark:text-text-secondary">¡Conectemos! Siempre estoy interesado en conocer nuevos proyectos y oportunidades.</p>
+          <div class="markdown-content text-gray-700 dark:text-text-secondary">
+          
+          </div>
+          <div class="space-y-2">
+            
+            <div class="flex items-center gap-3">
+              <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+              <a href="mailto:gerald@delacruzchaico.com" class="text-primary dark:text-white">gerald@delacruzchaico.com</a>
+            </div>
+            
+            
+            <div class="flex items-center gap-3">
+              <div class="contact-info-icon"><i class="fab fa-linkedin-in"></i></div>
+              <a href="https://www.linkedin.com/in/delacruzchaico" target="_blank" rel="noopener noreferrer" class="text-primary dark:text-white">linkedin.com/in/delacruzchaico</a>
+            </div>
+            
+            
+            <div class="flex items-center gap-3">
+              <div class="contact-info-icon"><i class="fab fa-github"></i></div>
+              <a href="https://github.com/delacruzchaico" target="_blank" rel="noopener noreferrer" class="text-primary dark:text-white">github.com/delacruzchaico</a>
+            </div>
+            
+            
+            
+            <div class="flex items-center gap-3">
+              <div class="contact-info-icon" style="--calendly-mask: url(/images/calendly-icon.svg)">
+                <span class="contact-info-icon-img" role="img" aria-label="Calendly"></span>
+              </div>
+              <a href="https://calendly.com/gerald-delacruz-chaico/30min" target="_blank" rel="noopener noreferrer" class="text-primary dark:text-white">calendly.com/gerald-delacruz-chaico/30min</a>
+            </div>
+            
+            
+            
+            
+            <div class="flex items-center gap-3">
+              <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <span class="text-gray-700 dark:text-text-tertiary">Lima, Perú</span>
+            </div>
+            
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="calendly-modal" class="fixed inset-0 bg-bg bg-opacity-50 hidden items-center justify-center px-4 py-8" aria-modal="true" aria-labelledby="calendly-modal-title">
+    <div class="bg-bg dark:bg-bg rounded-xl shadow-2xl w-full max-w-5xl lg:max-w-6xl max-h-[85vh] lg:max-h-[90vh] overflow-y-auto sidebar-scroll">
+      <div class="p-8">
+        <div class="flex justify-between items-center mb-6">
+          <h3 id="calendly-modal-title" class="text-2xl font-bold text-text-primary dark:text-text-primary">Schedule a Call</h3>
+          <button id="calendly-close" type="button" class="text-text-muted text-text-secondary dark:text-text-muted text-2xl font-bold">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        
+        <div class="calendly-inline-widget" data-url="https://calendly.com/gerald-delacruz-chaico/30min" style="min-width:320px;height:700px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('contact-form');
+    if (form) {
+      form.addEventListener('submit', async function (e) {
+        e.preventDefault();
+        
+        
+        const formspreeEndpoint = window.FORMSPREE_ENDPOINT;
+        
+        if (!formspreeEndpoint) {
+          showToast('⚠️ Contact form not configured. Please try again later.');
+          return;
+        }
+        
+        const formData = new FormData(form);
+    
+        try {
+          const response = await fetch(formspreeEndpoint, {
+            method: 'POST',
+            body: formData,
+            headers: {
+              'Accept': 'application/json'
+            }
+          });
+    
+          if (response.ok) {
+            showToast('✅ Thank you! I\'ll get back to you soon.');
+            form.reset();
+          } else {
+            showToast('❌ Error: Please try again.');
+          }
+        } catch (error) {
+          console.error(error);
+          showToast('⚠️ Failed to submit.');
+        }
+      });
+    }
+
+    const calendlyModal = document.getElementById('calendly-modal');
+    const calendlyClose = document.getElementById('calendly-close');
+
+    if (calendlyModal && calendlyClose) {
+      function openCalendlyModal() {
+        calendlyModal.classList.remove('hidden');
+        calendlyModal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      }
+      document.querySelectorAll('.calendly-open-trigger').forEach(function (el) {
+        el.addEventListener('click', openCalendlyModal);
+      });
+
+      function closeCalendlyModal() {
+        calendlyModal.classList.add('hidden');
+        calendlyModal.classList.remove('flex');
+        document.body.style.overflow = 'auto';
+      }
+
+      calendlyClose.addEventListener('click', closeCalendlyModal);
+
+      calendlyModal.addEventListener('click', function (e) {
+        if (e.target === calendlyModal) {
+          closeCalendlyModal();
+        }
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && !calendlyModal.classList.contains('hidden')) {
+          closeCalendlyModal();
+        }
+      });
+    }
+  
+    function showToast(message) {
+      const toast = document.createElement('div');
+      toast.textContent = message;
+      toast.className = 'fixed bottom-6 right-6 bg-second dark:bg-second-light text-white px-4 py-2 rounded shadow-lg';
+      document.body.appendChild(toast);
+  
+      setTimeout(() => {
+        toast.remove();
+      }, 4000);
+    }
+  });
+</script>
+
+
+
+    </main>
+
+    <footer class="bg-bg-secondary dark:bg-bg-secondary text-text-primary py-12 border-t border-border-primary">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+      <div class="mb-4 md:mb-0">
+        <a href="/#home" class="text-xl font-bold text-text-primary font-heading">Gerald de la Cruz </a>
+        <p class="text-text-secondary dark:text-text-muted mt-1">Desarrollador de sistemas web CRM/EMR. Administración de sistemas Linux y base de datos.</p>
+        <p class="text-text-secondary dark:text-text-muted mt-2">Desarrollador de sistemas web Full-stack. Programando en todos lados desde el 2009. Estoy comprometido con la mejora continua, el pensamiento sistémico y me encanta participar en proyectos donde se use la tecnología para mejorar las estrategias de marketing.</p>
+        <p class="text-text-secondary dark:text-text-muted mt-1">
+          <i class="fas fa-map-marker-alt mr-2"></i>Lima, Perú
+        </p>
+        <a href="mailto:gerald@delacruzchaico.com" class="text-text-secondary dark:text-text-muted text-primary dark:text-primary-light mt-1 inline-block">
+          <i class="fas fa-envelope mr-2"></i>gerald@delacruzchaico.com
+        </a>
+        
+        <div class="flex space-x-8 mt-6 items-center" data-animation="social">
+          
+          <a href="https://www.linkedin.com/in/delacruzchaico/" target="_blank" rel="noopener noreferrer" class="text-text-secondary dark:text-text-muted text-third dark:text-third-light transition-transform duration-300 hover:scale-125">
+            
+            <i class="fab fa-linkedin-in text-3xl text-text-primary dark:text-text-primary"></i>
+            
+          </a>
+          
+          <a href="https://github.com/delacruzchaico" target="_blank" rel="noopener noreferrer" class="text-text-secondary dark:text-text-muted text-third dark:text-third-light transition-transform duration-300 hover:scale-125">
+            
+            <i class="fab fa-github text-3xl text-text-primary dark:text-text-primary"></i>
+            
+          </a>
+          
+          
+          <button type="button" class="calendly-open-trigger text-text-secondary dark:text-text-muted text-third dark:text-third-light transition-transform duration-300 hover:scale-125" aria-label="Book a meeting on Calendly">
+            <img src="/images/calendly-icon.svg" alt="" class="w-8 h-8" width="32" height="32">
+          </button>
+          
+        </div>
+      </div>
+      <div class="flex flex-col items-end">
+        <div class="flex flex-wrap gap-2 justify-end">
+          
+          
+          <span class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibold leading-snug whitespace-normal shadow-md">Seguridad y desarrollo a la medida</span>
+          
+          
+          <span class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibold leading-snug whitespace-normal shadow-md">Análisis de sistemas CRM</span>
+          
+          
+          <span class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibold leading-snug whitespace-normal shadow-md">full stack (PHP / Python / Node.js / MySql / Postgres)</span>
+          
+          
+          <span class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibold leading-snug whitespace-normal shadow-md">Arquitectura de software y requisitos</span>
+          
+          
+          <span class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibold leading-snug whitespace-normal shadow-md">Adopción de IA empresarial</span>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8 pt-8 border-t border-border-primary text-center text-text-secondary dark:text-text-muted text-sm">
+      <p>© 2026 | Gerald de la Cruz</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+<div id="pexels-config" data-queries="[&#34;long span bridges&#34;,&#34;skyscrapers&#34;,&#34;sky and clouds&#34;,&#34;galactic core&#34;]" data-pexels-api-key="PHnzbDH0LMpqmT3YBLIAfljSkb7rsZ2NehKsj0ivIeKCCRleSMcptoke" data-formspree-endpoint="" style="display: none;"></div>
+<script>
+  (function() {
+    var el = document.getElementById('pexels-config');
+    if (el) {
+      window.PEXELS_API_KEY = el.getAttribute('data-pexels-api-key') || '';
+      window.FORMSPREE_ENDPOINT = el.getAttribute('data-formspree-endpoint') || '';
+      try { window.PEXELS_QUERIES = JSON.parse(el.getAttribute('data-queries')); } catch (e) { window.PEXELS_QUERIES = []; }
+    } else {
+      window.PEXELS_API_KEY = window.FORMSPREE_ENDPOINT = '';
+      window.PEXELS_QUERIES = [];
+    }
+  })();
+</script>
+
+    
+
+<script>
+  
+  window.HUGO_COLOR_PALETTES = [
+    
+    {
+      name: "professional",
+      main_color: "#474A51",
+      second_color: "#E52521",
+      third_color: "#3CB043"
+    },
+    
+    {
+      name: "ocean",
+      main_color: "#1E40AF",
+      second_color: "#06B6D4",
+      third_color: "#10B981"
+    },
+    
+    {
+      name: "steel",
+      main_color: "#374151",
+      second_color: "#6B7280",
+      third_color: "#10B981"
+    },
+    
+    {
+      name: "navy",
+      main_color: "#1E3A8A",
+      second_color: "#3B82F6",
+      third_color: "#F59E0B"
+    },
+    
+    {
+      name: "slate",
+      main_color: "#475569",
+      second_color: "#0EA5E9",
+      third_color: "#F97316"
+    },
+    
+    {
+      name: "midnight",
+      main_color: "#0F172A",
+      second_color: "#8B5CF6",
+      third_color: "#06B6D4"
+    }
+    
+  ];
+  
+  
+  if (window.HUGO_COLOR_PALETTES && window.HUGO_COLOR_PALETTES.length > 0) {
+    console.log('🎨 Using color palettes from Hugo config:', window.HUGO_COLOR_PALETTES.length, 'palettes');
+  }
+</script>
+
+    <script src="/js/scripts.js"></script>
+    <script src="/js/devicon-fallback.js"></script>
+    <script src="/js/dynamic-colors.js"></script>
+    <script src="/js/gsap-animations.js"></script>
+    <script src="/js/pexels-background.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fslightbox/index.js"></script>
+
+    
+    <script>
+        
+        if (localStorage.getItem('darkMode') !== 'false') {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+
+        
+        window.addEventListener('load', function() {
+            document.body.style.visibility = 'visible';
+        });
+    </script>
+</body>
+</html>

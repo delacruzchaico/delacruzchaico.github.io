@@ -1,0 +1,125 @@
+#+title: SendPortal: La Alternativa Open Source a Mailcoach para Email Marketing
+#+date: 2026-04-26
+#+description: Una potente plataforma de email marketing auto-hospedada construida con Laravel. Alternativa open source a Mailcoach con gestión de listas, campañas y tracking.
+#+featured_image: /images/sendportal.png
+#+tags[]: laravel email-marketing sendportal mailcoach newsletter
+#+categories[]: infraestructura
+#+draft: false
+
+* Introducción @@html:&#128640;@@
+
+Cuando hablamos de email marketing con Laravel, *Mailcoach* de Spatie es una de las primeras opciones que vienen a la mente. Es robusto, elegante y está construido por uno de los equipos más respetados del ecosistema PHP.
+
+Pero si buscás una **alternativa 100% open source** con un enfoque similar, no tan orientada a desarrolladores individuales sino a equipos de marketing, SendPortal es la respuesta [citation:3][citation:6].
+
+En este post, te cuento qué es SendPortal, por qué deberías considerarlo y cómo implementarlo.
+
+* ¿Qué es SendPortal? @@html:&#128233;@@
+
+SendPortal es una aplicación de email marketing **auto-hospedada** construida con Laravel. Te permite:
+
+- Gestionar listas de suscriptores con etiquetas y segmentación.
+- Crear y enviar campañas de email.
+- Diseñar plantillas reutilizables.
+- Hacer seguimiento de aperturas y clics.
+- Manejar múltiples espacios de trabajo (workspaces).
+- Integrarte con los principales ESPs (Amazon SES, Postmark, Mailgun, SendGrid, Mailjet, SMTP) [citation:6][citation:8].
+
+A diferencia de Mailcoach, que tiene una versión comercial y una versión self-hosted paga, SendPortal es **completamente gratuito y open source** [citation:3][citation:8].
+
+* ¿Por qué elegir SendPortal sobre Mailcoach? @@html:&#129488;@@
+
+| Característica   | SendPortal                                      | Mailcoach (Self-Hosted)      |
+|------------------+-------------------------------------------------+------------------------------|
+| Licencia         | Open source (gratuito)                          | Paga (desde €299/año)        |
+| Construido con   | Laravel + Livewire/Tall Stack                   | Laravel + Vue                |
+| ESPs soportados  | SES, Postmark, Mailgun, SendGrid, Mailjet, SMTP | SES, Mailgun, Sendgrid, SMTP |
+| Automatizaciones | Drip campaigns básicas                          | Workflows avanzados          |
+| API              | Sí                                              | Sí (con SDK oficial)         |
+| Ideal para       | Equipos de marketing, agencias                  | Desarrolladores Laravel      |
+
+Si tu prioridad es **tener control total sin costo de licencia**, SendPortal es una opción imbatible [citation:5][citation:8].
+
+* Implementación Rápida con Docker @@html:&#128187;@@
+
+La forma más sencilla de probar SendPortal es usando Docker. Acá te dejo un ejemplo funcional:
+
+#+begin_src yaml
+version: '3.8'
+services:
+  sendportal:
+    image: sendportal/sendportal:latest
+    ports:
+      - "8080:80"
+    environment:
+      - APP_URL=http://localhost:8080
+      - APP_ENV=production
+      - APP_KEY=base64:tu_clave_aqui
+      - DB_CONNECTION=pgsql
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_DATABASE=sendportal
+      - DB_USERNAME=sendportal
+      - DB_PASSWORD=secret
+      - QUEUE_CONNECTION=redis
+      - REDIS_HOST=redis
+    depends_on:
+      - db
+      - redis
+
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=sendportal
+      - POSTGRES_USER=sendportal
+      - POSTGRES_PASSWORD=secret
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+
+volumes:
+  pg_data:
+#+end_src
+
+**Pasos**:
+
+1. Guardá el archivo como `docker-compose.yml`
+2. Ejecutá `docker-compose up -d`
+3. Accedé a `http://localhost:8080`
+4. Seguí el asistente de instalación para crear el usuario admin
+
+* Configuración de Email Service Provider @@html:&#128295;@@
+
+Un detalle importante: las credenciales SMTP del archivo `.env` solo se usan para emails transaccionales (registro, password reset). **Para enviar campañas**, tenés que configurar un "Email Service" desde el panel de administración de SendPortal [citation:6].
+
+Los ESPs compatibles son:
+- Amazon SES (recomendado por bajo costo)
+- Postmark
+- Mailgun
+- SendGrid
+- Mailjet
+- SMTP genérico
+
+* Integración con Laravel Existente @@html:&#129309;@@
+
+Si ya tenés una aplicación Laravel y querés agregar funcionalidad de email marketing, SendPortal Core te permite hacerlo como un paquete [citation:8]:
+
+#+begin_src bash
+composer require sendportal/core
+#+end_src
+
+Esto es perfecto si ya tenés un sistema de usuarios y solo necesitás las capacidades de newsletter sin tener un panel separado.
+
+* Conclusión @@html:&#128640;@@
+
+SendPortal es una alternativa sólida y madura a Mailcoach, especialmente si:
+
+- Tenés un presupuesto limitado o preferís software open source.
+- Administrás newsletters para múltiples clientes o equipos.
+- Querés mantener el control total de tus datos y costos de envío.
+
+La comunidad es activa, el proyecto está bien mantenido y la integración con Laravel es de primera clase. Si venías usando Mailcoach o pensabas en adoptarlo, dale una oportunidad a SendPortal.
+
+¿Ya lo probaste? Contame tu experiencia en los comentarios. @@html:&#128172;@@
